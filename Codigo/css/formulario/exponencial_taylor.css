@@ -1,0 +1,19 @@
+html{
+    font-size: 100%;
+    display: flex;
+}
+
+body{
+    margin: auto;
+    width: 100rem;
+    height: 51.6875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    width: 30rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}

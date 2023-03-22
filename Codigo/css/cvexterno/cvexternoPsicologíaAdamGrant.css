@@ -1,0 +1,218 @@
+ /* *{
+    visibility: visible;
+    border-color: #E52A30;
+    border-width: 5px;
+    border-style: solid;
+} */
+
+body{
+    display:flex;
+    margin: auto;
+    flex-flow: column nowrap;
+    flex-basis:80%;
+    background: linear-gradient(rgb(226, 140, 28), rgb(168, 165, 161));
+}
+
+header{
+    display:inherit;
+    background-color: #E2D8CE;
+    justify-content: center;
+    margin-bottom: 1%;
+    max-width: 100%;
+}
+
+header > h1{
+    display: inherit;
+    justify-content: center;
+    flex-grow: 0.9;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+header > h1 > p{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 4rem;
+    flex-grow: 0.9;
+    margin:0;
+}
+
+.adjust-body-row-nowrap{
+    display: inherit;
+    flex-flow:row nowrap;
+}
+
+.main-flex{
+    display: inherit;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    max-width: 50%;
+    padding: 0 2.5% 0 2.5%;
+    margin: 0% 0.5% 1% 0.5%;
+    background-color: #E2D8CE;
+}
+
+.main-flex > section{
+    display: inherit;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.main-flex > section > article{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.main-flex > section > article > h2 > p{
+    font-size: 2rem;
+    margin-bottom:1%;
+    margin-top:1%;
+}
+
+.main-flex > section > article > p{
+    font-size: 1.4rem;
+}
+
+.main-flex > section > article > ul > li > p{
+    font-size: 1.4rem;
+}
+
+.adam{
+    align-self: center;
+    width: 20rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border-radius: 1%;
+}
+
+.justified-text{
+    text-align: justify;
+}
+
+.aside-left{
+    display: inherit;
+    flex-direction: column;
+    max-width: 24%;
+    margin: 0% 0.5% 1% 0%;
+    background-color: #E2D8CE;
+}
+
+.section-from-aside-left{
+    display: inherit;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 1% 1% 1% 1%;
+}
+
+.section-from-aside-left > h2{
+    display: inherit;
+    justify-content: center;
+}
+
+.section-from-aside-left > h2 > p{
+    font-size: 2rem;
+    margin:2% 0% 2% 0%;
+}
+
+.section-from-aside-left > ul{
+    display: inherit;
+    flex-flow: column nowrap;
+    align-items: center;
+    list-style-type:none;
+    padding: 0% 1.21rem 0% 1.21rem;
+    margin-top:0;
+}
+
+.section-from-aside-left > ul > img{
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    max-width: 7rem;
+    border-radius: 5%;
+}
+
+.section-from-aside-left > ul > li{
+    text-align: center;
+    max-height: 15%;
+    margin: 0% 0% 18% 0%;
+}
+
+.section-from-aside-left > ul > li > p{
+    font-size: 1.4rem;
+    padding: 1% 1% 1% 1%;
+    margin: 0% 0% 2% 0%;
+}
+
+.aside-right{
+    display: inherit;
+    max-width: 24%;
+    flex-direction: column;
+    margin: 0% 0% 1% 0.5%;
+    background-color: #E2D8CE;
+}
+
+.section-from-aside-right{
+    display: inherit;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 1% 1% 1% 1%;
+}
+
+.section-from-aside-right > h2{
+    display: inherit;
+    justify-content: center;
+}
+
+.section-from-aside-right > h2 > p{
+    font-size: 2rem;
+    margin:2% 0% 2% 0%;
+}
+
+.section-from-aside-right > ul{
+    display: inherit;
+    flex-flow: column nowrap;
+    align-items: center;
+    list-style-type:none;
+    padding: 0% 1.21rem 0% 1.21rem;
+    margin-top:0;
+}
+
+.section-from-aside-right > ul > img{
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    max-width: 7rem;
+    border-radius: 5%;
+}
+
+.section-from-aside-right > ul > li{
+    text-align: center;
+    max-height: 15%;
+    margin: 0% 0% 18% 0%;
+}
+
+.section-from-aside-right > ul > li > p{
+    font-size: 1.4rem;
+    padding: 1% 1% 1% 1%;
+    margin: 0% 0% 2% 0%;
+}
+
+.justified-text > li > p{
+    text-align: justify;
+}
+
+.background-color-container{
+    background: linear-gradient(rgb(226, 140, 28), rgb(168, 165, 161));
+}
+
+html{
+    display: flex;
+    background-color: aliceblue;
+    font-size: 16px;
+}

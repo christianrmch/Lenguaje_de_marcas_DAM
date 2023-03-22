@@ -1,0 +1,29 @@
+body {
+    background: #000000
+}
+
+
+#Contenido {
+    border: 20px inset #A40000;
+    outline-offset: 0px;
+    }
+
+body{ font-family: Helvetica; }
+
+#Contenido {width: 1000px; 
+            height: auto; 
+            margin:auto; 
+            margin-top: 150px; 
+            margin-bottom: 150px;
+            background-color: #ffffff;
+            text-align: justify;
+        }
+
+.centrar { text-align: center; margin-top:50px; margin-bottom:20px ;
+}
+.derecha { float: right;}
+
+#Tabla1 { margin-left: 25px; margin-right: 25px; }
+#Tabla2 { margin-left: 25px; margin-right: 25px;}
+#Referencias { margin-left: 25px; margin-right: 25px; margin-bottom:30px; }
+.blanco { color:#ffffff; }

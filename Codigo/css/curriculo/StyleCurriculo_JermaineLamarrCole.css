@@ -1,0 +1,109 @@
+body{
+    background: rgb(255, 255, 255);
+    width: 230mm;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 12pt;
+    background: rgb(255, 255, 255); 
+  }
+
+#caja {
+    width: 300px;
+    height: 1000px;
+    background: #424e5e;
+}
+h1 {font-size: 20px;
+    margin-left: 5px;
+     text-align: center;}
+
+#JcoleImagen {max-width: 80%;
+             height: auto;
+             margin-top: 30px;
+             margin-left: 28px;}
+
+#Name {color: aliceblue;
+       font-family: 'Raleway',sans-serif;
+       font-size: 60px;}
+            
+#estudios { color: rgb(255, 255, 255); 
+           font-family: 'Raleway',sans-serif;
+           font-size: 30px; 
+           font-weight: 300; 
+           line-height: 32px; 
+           margin: 0 0 72px; 
+           letter-spacing: 2px;
+           margin-left: 10px;
+           margin-top: 70px;
+           font-weight: bold;
+           text-decoration: underline;
+           text-align: center;
+          }
+
+#estudioslista {color: white;
+                margin-top: -50px;}
+
+#Titulos {width: 250px;
+          height: 170px;
+          background: cornflowerblue;
+          border-radius: 5px;
+          margin-left: 20px;
+          }
+
+#parrafo {
+          margin-left: 320px;
+          width: 500px;
+          height: 50px;
+          background: #d68800;
+          margin-top: -795px;
+          font-size: 45px;
+          font-family: 'Raleway',sans-serif;
+          font-weight: bold;
+          letter-spacing: 15px;
+          text-align: center;
+          border-radius: 5px;
+          }
+
+p {margin-left: 320px;
+   margin-top: -900px;
+}
+
+#XP {margin-left: 320px;}
+
+#xplaboral {width: 500px;
+            height: 110px;
+            background: #d68800;
+            font-size: 45px;
+            font-family: 'Raleway',sans-serif;
+            font-weight: bold;
+            letter-spacing: 7px;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: -7px
+            }
+
+#lista2 {font-size: 20px;
+         letter-spacing: 1px;
+         margin-left: 25px;
+         margin-top: -20px;
+        }
+
+#premios {width: 500px;
+          height: 50px;
+          background: #d68800;
+          font-size: 45px;
+          font-family: 'Raleway',sans-serif;
+          font-weight: bold;
+          letter-spacing: 15px;
+          text-align: center;
+          border-radius: 5px;
+          margin-top: -20px;
+        }
+
+#lista3 {font-size: 18px;
+         letter-spacing: 1px;
+         margin-left: 25px;}
+
+
+
+

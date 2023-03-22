@@ -1,0 +1,221 @@
+.tarjetassss {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+/*------------------------ TARJETA SALEEM --------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.tarjeta1{
+  position: relative;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border: 5px black solid;
+  border-radius: 30px;
+  background-color:rgba(87, 79, 79, 0.5);
+}
+
+/* H E A D E R */
+.aside_header__1{
+  position: relative;
+  height: 75px;
+  width: 100%;
+  background-color: #424e5e;
+  border-radius: 24px;
+}
+
+
+.aside_img__1{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid white;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* T E X T O */
+
+.aside_section__1 {
+  position: absolute;
+  height: 120px;
+  top: 110px;
+}
+.aside_h1__1{
+  /*position: relative;*/
+  font-size: 20px;
+  text-align: center;
+}
+
+.aside_p__1{
+  /*position: relative;*/
+  font-size: 13px;
+  text-align: center;
+  top: 10px;
+}
+
+/* B O T Ó N */
+
+.boton_01 {
+  position: relative;
+  width: 50%;
+  height: 15%;
+  top: 165px;
+  margin: auto;
+}
+.aside_button__1{
+  height: auto;
+  width: auto;
+  font-size: 100%;
+  background-color: #d68800;
+  border-radius: 10%;
+  border: 3px solid white;
+}
+
+/*------------------------ TARJETA CARLOS--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.tarjeta2{
+  position: relative;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border: 5px inset #000000;
+  background-color: grey;
+}
+
+/*N O M B R E */
+
+.aside_h1__2{ 
+  font-size: 20px;
+  text-align: center; 
+}
+
+/*I M A G E N */
+
+.div_imagen_08 {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+
+.aside_img__2{
+  width: 70px;
+  height: 70px;
+}
+
+/* T E X T O */
+
+.aside_h2__2{
+text-align: center;
+font-size: 15px;
+}
+
+.aside_p__2{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* B O T Ó N */
+
+.boton__08 {
+  width: 100px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.aside_button__2{
+background-color: rgb(0, 255, 255);
+}
+
+/*------------------------ TARJETA WASSIM --------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.tarjeta3 {
+  position: relative;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 3%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 15px black;
+  /*margin-top: 525px;*/
+}
+
+/* H E A D E R */
+.aside_header__3 {
+position: relative;
+top: 20px;
+height: 70px;
+width: 85%;
+margin: auto;
+background-color: #555;
+}
+
+.imagen__09 {
+  position: absolute;
+height: 70px;
+width: 70px;
+margin: 35px 65px;
+}
+
+.aside_img__3{
+height: 70px;
+width: 70px;
+border-radius:50%;
+box-shadow: 3px 3px 15px black;
+}
+
+/* T E X T O */
+
+.aside_h1__3 {
+position: relative;
+top: 60px;
+margin: auto;
+font-size: 170%;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+color: black;
+text-shadow: 3px 3px 20px #666;
+}
+
+.aside_p__3{
+position: relative;
+width: 90%;
+top: 70px;
+margin: auto;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+text-align: center;
+font-size: 80%;
+}
+
+/* B O T Ó N */
+
+.aside_button__3 {
+position: relative;
+top: 90px;
+margin: auto;
+width: 100px;
+height: 50px;
+text-align: center;
+}
+
+form > input {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: black;
+  text-shadow: 3px 3px 10px #666;
+  box-shadow: 5px 2px 15px black;
+}

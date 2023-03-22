@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------WASSIM--------------------------------------------------------------------------------------------*/
+
+.tarjeta-container_09 {
+    width: 150px;
+    height: 200px;
+    margin-right: auto;
+    padding: 25px;
+    padding-bottom: 20px;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 15px black;
+}
+
+
+/*PARTE SUPERIOR*/ /*FOTO*/
+
+.tarjeta-container__color_09 {
+    display: flex;
+    height: 35%;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(85, 85, 85);
+}
+
+.tarjeta-container__color__foto_09 {
+    position: absolute;
+    width: 4%;
+    height: 8%;
+    margin-top: 2%;
+    margin-left: 45px;
+}
+
+.tarjeta-container__color__foto--imagen_09 {
+    width: 100%;
+    height: 100%;
+    border-radius: 400%;
+    box-shadow: 3px 3px 15px black;
+}
+
+
+/*NOMBRE*/
+
+.tarjeta-container__nombre_09 {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta-container__nombre__texto--paul_09 {
+    text-decoration: none;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 3px 3px 20px #666;
+    margin-top: 20%;
+}
+
+
+/*TEXTO*/
+
+.tarjeta-container__texto_09 {
+    text-align: justify;
+}
+
+.tarjeta-container__texto--p_09 {
+    font-size: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+/*BOTÓN*/
+
+form {
+    width: 10%;
+    height: 10%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+form > input {
+    width: 300%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 3px 3px 10px #666;
+    box-shadow: 5px 2px 15px black;
+}
+
+
+
+
+/*-----------------------CARLOS--------------------------------------------------------------------------------------------*/
+
+#Contenido_08 {
+    width: 180px;
+    height: 200px;
+    margin-top: 35px;
+    margin-right: auto;
+    padding: 15px 5px;
+    background-color: #ffffff;
+    text-align: justify;
+    border: 5px inset #000000;
+    outline-offset: 0px;
+    background-color: grey;
+}
+
+.centrar_08 { 
+    text-align: center;
+    font-size: 15px; 
+}
+
+.img_08 {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+.img_08 > img {
+    width: 70px;
+    height: 70px;
+}
+
+#Content_08 {
+    text-align: center;
+    font-size: 8px; 
+    margin-top: 5px;
+}
+
+#Content_08 > p {
+    text-align: justify;
+    font-size: 11px; 
+    margin-top: 3px;
+}
+
+.boton_08 {
+    margin: 10px auto;
+    background-color: rgb(32, 185, 190);
+}
+
+
+/*-----------------------SALEEM--------------------------------------------------------------------------------------------*/
+
+
+.page_11{
+    width: 190px;
+    height: 240px;
+    margin-right: auto;
+    border: 5px black solid;
+    max-width: 1500px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color:rgba(255, 255, 255, 0.5);
+    background-image: url(https://www.desktopbackground.org/download/o/2014/10/05/835508_music-website-background-images-hd_2560x1600_h.jpg);
+}
+
+/*I M A G E N*/
+
+.header_saleem_11 {
+    background-color: #424e5e;
+    border-radius: 24px;
+    max-width: 750px;
+    margin: auto;
+    height: 35%;
+    width: 100%;
+}
+
+.jcolepic_11 {
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 60px;
+    height: 60PX;
+    margin: 0 33%;
+    margin-top: 40px;
+}
+
+/*T E X T O*/
+
+.section_saleem_11 {
+    font-size: 13px;
+    color: black;
+    padding-top: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.psaleem_11 {
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*B O T Ó N*/
+
+.mainbutton_11 {
+    margin-left: 60px;
+    height: 30px;
+    width: 70px;
+    font-size: 10px;
+    background-color: #d68800;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+
+/*-----------------------CHRISTIAN--------------------------------------------------------------------------------------------*/
+
+.main_christian_00 {
+    width: 150px;
+    height: 200px;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 25px;
+    padding-bottom: 20px;
+    border-color: 2px solid black;
+  }
+  
+  .header_00 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .header-img_00 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+    
+  .p_christian_00 {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .descripcion_christian_00 {
+    font-size: 10px;
+    text-align: center;
+    margin: 5px;
+  }
+  .fcc-btn_00 {
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 10px;
+  }

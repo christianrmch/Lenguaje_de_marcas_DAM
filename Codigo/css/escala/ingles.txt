@@ -1,0 +1,42 @@
+
+Interviewer: Hello, how are you? Thank you for coming to the interview.
+
+Applicant: Hello, very well. Thank you for the opportunity. 
+
+Interviewer: Well, tell me a little about yourself and your experience as an application developer. 
+
+Applicant: Sure. My name is Juan and I am a computer engineer. I have worked as an application developer for three years on different projects, both for Android and iOS. I like to create innovative and functional solutions that meet the needs of users. 
+
+Interviewer: What motivates you to apply for this offer? 
+
+Applicant: I am very interested in the sector that your company is dedicated to and the type of applications that they develop.
+I think they have great potential and I would like to be part of their team.
+Also, I have seen that they use technologies that interest me and that I want to learn more about. 
+
+Interviewer: What programming languages do you master? 
+
+Applicant: I master Java, Kotlin and Swift. I have used Java and Kotlin to develop native applications for Android, Swift for iOS.
+
+Interviewer: Can you show me some examples of your previous work? 
+
+Applicant: Yes, sure. Here I have my portfolio with some projects that I have done. You can see the screenshots, descriptions and links to download the applications if you want to try them. Would you like to see any particular project? 
+
+Applicant: Yes, I would like to see the health application. It seems very interesting and useful to me. 
+
+Applicant: Well, this is the application that I developed for a client who wanted to offer a telemedicine service.
+The application allows users to register, create their medical profile, connect with an online doctor,
+send their biometric data and receive a prescription or an appointment if necessary. 
+
+Interviewer: Very well,I liked your work very much. Do you have any questions for me about my position or company? 
+
+Applicant: Yes,I would like to know how the work environment is in your team and what methodology you use to manage projects. 
+
+Interviewer: Sure. The environment is very good,we are a young and dynamic team that works collaboratively and with flexible hours. We use agile methodologies such as Scrum or Kanban to organize our projects and we communicate through tools such as Slack or Trello. 
+
+Applicant: That sounds great. I like working in a team and using agile methodologies. 
+
+Interviewer: Well,I think we’re done today.Thank you very much for your time and interest.We’ll call soon to tell you the final decision. 
+
+Applicant: Thank you very much for the interview.It has been a pleasure to meet them and hope to hear from them soon. 
+
+Interviewer: Likewise.Have a good day.

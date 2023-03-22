@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@keyframes slide {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(0); }
+  25% { transform: translateX(-100%); }
+  45% { transform: translateX(-100%); }
+  50% { transform: translateX(-200%); }
+  70% { transform: translateX(-200%); }
+  75% { transform: translateX(-300%); }
+  95% { transform: translateX(-300%); }
+}
+.slider {
+    display: flex;
+    animation-name: slide;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+.slider img {
+    height:200px;
+}
+</style>
+</head>
+<body>
+<div class="slider">
+    <img src="../../img/paginaPrincipal/cuadro_persona_pincel.jpg" alt="Image1">
+    <img src="../../img/paginaPrincipal/formulario.jpeg" alt="Image2">
+    <img src="../../img/paginaPrincipal/olas.jpg" alt="Image3">
+    <img src="../../img/paginaPrincipal/rabia_mujer.jpeg" alt="Image4">
+    <img src="../../img/paginaPrincipal/shock.jpeg" alt="Image5">
+</div>
+</body>
+</html>

@@ -1,0 +1,209 @@
+/* *{
+    visibility: visible;
+    border-color: #E52A30;
+    border-width: 5px;
+    border-style: solid;
+} */
+
+
+.html_cv{
+    display: flex;
+    background-color: aliceblue;
+    font-size: 1em;
+}
+
+.body_cv{
+    font-size: 1em;
+    display:flex;
+    margin: auto;
+    width: 100em;
+    flex-flow: column nowrap;
+    background: linear-gradient(rgb(226, 140, 28), rgb(168, 165, 161));
+}
+
+.header_cv{
+    margin-bottom: 1em;
+    text-align: center;
+    background-color: #E2D8CE;
+}
+
+.header_cv > h1{
+    display: inherit;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.adjust-body-row-nowrap{
+    width: 100%;
+    display: flex;
+    flex-flow:row nowrap;
+}
+
+.main-flex{
+    font-size: 1em;
+    display: inherit;
+    flex-direction: column;
+    background-color: #E2D8CE;
+    width: 70em;
+    padding: 0 2em 0 2em;
+    margin: 0 0 1em 0.5em;
+}
+
+.main-flex > section{
+    display: inherit;
+    align-self: center;
+    flex-flow: column nowrap;
+    width: 60%;
+}
+
+.main-flex > section > article{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.main-flex > section > article > h2 > p{
+    font-size: 1.5em;
+    margin-bottom:1%;
+    margin-top:1%;
+}
+
+.main-flex > section > article > p{
+    font-size: 1.4em;
+}
+
+.main-flex > section > article > ul > li > p{
+    font-size: 1.4em;
+}
+
+.adam{
+    align-self: center;
+    width: 20em;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border-radius: 1%;
+}
+
+.justified-text{
+    text-align: justify;
+}
+
+.aside-left{
+    display: inherit;
+    flex-direction: column;
+    width: 25em;
+    margin: 0% 0.5% 1% 0%;
+    background-color: #E2D8CE;
+}
+
+.section-from-aside-left{
+    display: inherit;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 1% 1% 1% 1%;
+}
+
+.section-from-aside-left > h2{
+    display: inherit;
+    justify-content: center;
+}
+
+.section-from-aside-left > h2 > p{
+    font-size: 2em;
+    margin:2% 0% 2% 0%;
+}
+
+.section-from-aside-left > ul{
+    display: inherit;
+    flex-flow: column nowrap;
+    align-items: center;
+    list-style-type:none;
+    padding: 0% 1.21em 0% 1.21em;
+    margin-top:0;
+}
+
+.section-from-aside-left > ul > img{
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    width: 7em;
+    border-radius: 5%;
+}
+
+.section-from-aside-left > ul > li{
+    text-align: center;
+    max-height: 15%;
+}
+
+.section-from-aside-left > ul > li > p{
+    font-size: 1.4em;
+    padding: 1% 1% 1% 1%;
+    margin: 0% 0% 20% 0%;
+}
+
+.justified-text > li > p{
+    text-align: justify;
+}
+
+.background-color-container{
+    background: linear-gradient(rgb(226, 140, 28), rgb(168, 165, 161));
+}
+
+
+@media screen and (max-width: 296px) {
+    .html_cv{
+        font-size: 0.2299em;
+        overflow: hidden;
+        background-color:rgb(244, 228, 206);
+        border-radius: inherit;
+    }
+
+    .body_cv{
+        font-size: 0.8em;
+    }
+
+    .main-flex {
+        width: 60%;
+    }
+
+    .main-flex section{
+        font-size: 0.2em;
+        width: 90%;
+    }
+
+    .adjust-body-row-nowrap{
+        font-size: 0.9911em;
+        height: 130em;
+    }
+
+    .texto_p{
+        font-size: 1em;
+        margin-block-end: 2px;
+        margin-block-start: 2px;
+    }
+
+    .aside-left{
+        width: 40%;
+    }
+
+    .adam{
+        margin-top: 2.5em;
+    }
+
+    .section-from-aside-left{
+        font-size: 0.67em;
+        margin-top: 1em;
+        overflow:visible;
+    }
+
+    .section-from-aside-left > ul > li > p.texto_p:nth-child(n+1){
+        margin-bottom: 3em;
+    }
+
+    .justified-text{
+        padding-inline-start: 20px;
+    }
+}

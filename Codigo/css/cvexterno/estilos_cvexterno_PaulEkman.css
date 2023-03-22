@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #666;
+}
+
+/*CONTENEDORES*/
+
+.container_09 {
+    width: 1000px;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 5%;
+    display: inline-block;
+    padding: 25px;
+    padding-bottom: 20px;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 15px black;
+}
+
+.container__top_09 {
+    display: flex;
+}
+
+.container__centro_09 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container__bottom_09 {
+    display: flex;
+
+}
+
+/*HEADERS*/
+
+.header__imagen_09 {
+    margin: 20px;
+}
+
+.header__datos_09 {
+    margin: 20px;
+}
+
+/* IMAGEN */
+
+.header__imagen--foto_09 {
+    width: 200px;
+    height: 250px;
+    box-shadow: 3px 3px 15px black;
+}
+
+/*NOMBRE*/
+
+.header__nombre_09 {
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.header__nombre--titulo_09 {
+    text-decoration: none;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:  bolder;
+    color: black;
+    text-shadow: 3px 3px 20px #666;
+}
+
+/* DATOS PERSONALES*/
+
+.header__info_09 {
+    margin: 60px 30px 0px 20px;
+}
+
+.header__info--li_09 {
+    font-size: 15px;
+}
+
+/* DESCRIPCION*/
+
+.descripcion_09 {
+    /*border: 5px solid green;*/
+    margin: 1% 1% 3% 1% ;
+}
+
+.descripcion--texto_09 {
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+/*ESTUDIOS E IDIOMAS*/
+
+.estudios_09 {
+    width: 1000px;
+    margin-left: 20px;
+}
+
+.estudios--li_09 {
+    padding: 15px;
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.idiomas_09 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.idiomas--titulo_09 {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Alkalami', serif;
+    font-size: 20px;
+}
+
+.idiomas--titulo--ingles_09 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Alkalami', serif;
+    font-size: 20px;
+}
+
+.barra__progreso_09 {
+    width: 100%;
+    align-content: center;
+}
+
+.barra_09 {
+    margin-left: 80%;
+}
+
+.fieldset_09 {
+    border: 0px rgba(100, 131, 121, 0.485) solid;
+    box-shadow: 10px 10px 15px black;
+}
+
+/*EXPERIENCIA LABORAL Y COMPETENCIAS*/
+
+.experiencia_09 {
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.experiencia--titulo_09, .habilidades--titulo_09, .estudios--titulo_09 {
+    font-family: 'Alkalami', serif;
+    font-size: 30px;
+
+}
+
+.experiencia--li_09 {
+    padding: 5px;
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.habilidades_09 {
+    margin-left: 5%;
+    width: 45%;
+}
+
+.habilidades--lista_09 {
+    padding: 7px 1px;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*VARIOS //// CORRECCIONES*/
+
+ul {
+    padding: 10px;
+}
+
+.habilidades__texto_09 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+/*T A R J E T A S*/
+
+.tarjetas_09 {
+    width: 200px;
+    height: auto;
+    margin-top: 4%;
+    margin-right: 70px;
+    padding: 25px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 15px black;
+}
+
+.cabezal_09 {
+    height: 100px;
+    padding: 25px;
+    border-radius: 3%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 15px black;
+}
+
+.titulo_09 {
+    font-size: 600%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
