@@ -35,7 +35,7 @@ body{
 } 
 
 /*INCIO HEADER PÁGINA PRINCIPAL*/
-  .header{
+  .header_00{
     display: flex;
     font-family: "Playfair", sans-serif;
     flex-flow: column nowrap;
@@ -47,7 +47,7 @@ body{
     min-height: 20rem;
   }
 
-  .titulo_header{
+  .titulo_header_00{
     align-self: center;
     width: fit-content;
     height: fit-content;
@@ -57,7 +57,7 @@ body{
 
 
 /*INCIO MENÚ STICKY*/
-  .menu{
+  .menu_00{
     justify-content:space-between;
     display: flex;
     position: sticky;
@@ -69,7 +69,7 @@ body{
     z-index: 1;
   }
 
-  .lista_not_hover{
+  .lista_not_hover_00{
     font-size: 0.8em;
     width: 100%;
     margin-top: 2rem;
@@ -77,7 +77,7 @@ body{
     text-align: center;
   }
 
-  .lista_not_hover > li{
+  .lista_not_hover_00 > li{
     display: inline-flex;
     flex-flow: column;
     justify-content: space-between;
@@ -92,18 +92,18 @@ body{
     border-radius: 0.7em;
   }
 
-  .lista_not_hover > li:nth-child(n+2):hover{
+  .lista_not_hover_00 > li:nth-child(n+2):hover{
     overflow: scroll;
     width: 15em;
     height: 20em;
     padding-bottom: 1em;
   }
 
-  .lista_not_hover > li:nth-child(n+2):hover::-webkit-scrollbar{
+  .lista_not_hover_00 > li:nth-child(n+2):hover::-webkit-scrollbar{
     display: none;
   }
 
-  .opcion_menu{
+  .opcion_menu_00{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,14 +117,14 @@ body{
     height: 2.25em;
   }
 
-  .opcion_menu > a{
+  .opcion_menu_00 > a{
     color: aliceblue;
     height: fit-content;
     text-decoration: none;
     font-size: 1rem;
   }
 
-  .sub_lista_menu{
+  .sub_lista_menu_00{
     display: flex;
     flex-flow: column;
     border-radius: inherit;
@@ -133,7 +133,7 @@ body{
     width: 90%;
     gap: 1em;
   }
-  .sub_lista_menu > li{
+  .sub_lista_menu_00 > li{
     font-family:'Playfair', serif;
     display: flex;
     align-items: center;
@@ -148,7 +148,7 @@ body{
     padding-bottom: 0.5em;
   }
 
-  .sub_lista_menu > li > a{
+  .sub_lista_menu_00 > li > a{
     text-decoration: none;
     color: black;
   }
@@ -156,14 +156,14 @@ body{
 /*FIN MENÚ STICKY*/
 
 /* INICIO MAIN QUE CONTIENE ASIDE LEFT, SECTION, ASIDE RIGHT*/
-.main_p_principal{
+.main_p_principal_00{
   display: flex;
   width: 120rem;
   background-color:rgb(244, 228, 206);
   flex-flow: row nowrap;
 }
 
-.aside_left, .aside_right{
+.aside_left_00, .aside_right_00{
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -174,11 +174,11 @@ body{
 }
 
 /* INICIO ASIDE LEFT */
-  .aside_left{
+  .aside_left_00{
     gap: 5em;
   }
   /*INICIO PUBLICIDAD*/
-    .publicidad{
+    .publicidad_00{
       display: flex;
       border-radius: 1rem;
       position: sticky;
@@ -190,17 +190,17 @@ body{
       align-items: center;
     }
 
-    .publicidad > p{
+    .publicidad_00 > p{
       top: 0;
       width: 100%;
       text-align: end;
       opacity: 0.8;
     }
 
-    .publicidad > a{
+    .publicidad_00 > a{
       width: 100%;
     }
-    .publicidad > a > img{
+    .publicidad_00 > a > img{
       width: 100%;
       /* padding-bottom: 2.5em; */
       object-fit: fill;
@@ -208,7 +208,7 @@ body{
   /*FIN PUBLICIDAD*/
 
   /*INICIO ANUNCIO*/
-    .anuncio{
+    .anuncio_00{
       border-radius: 1.5rem;
       font-size: small;
       background: url(../../img/paginaPrincipal/imagen_oferta.jpg);
@@ -222,7 +222,7 @@ body{
       gap: 1rem;
     }
 
-    .anuncio > div{
+    .anuncio_00 > div{
       display: flex;
       flex-flow: column;
       overflow: hidden;
@@ -236,73 +236,72 @@ body{
       opacity: 0.93;
     }
 
-    .anuncio > div:hover{
+    .anuncio_00 > div:hover{
       height: 8rem;
       gap: 0rem;
     }
 
-    .anuncio > div > header{
+    .anuncio_00 > div > header{
       display: flex;
       flex-flow: row wrap;
       height: 50%;
       /* margin-bottom: 1.2rem; */
     }
 
-    .ofertas_sopra_steria{
+    .ofertas_sopra_steria_00{
       width: 70%;
       height: 100%;
       display: flex;
       flex-flow: column;
     }
 
-    div:hover > header > .ofertas_sopra_steria{
+    div:hover > header > .ofertas_sopra_steria_00{
       justify-content: center;
     }
 
-    .anuncio > div > header > h2{
+    .anuncio_00 > div > header > h2{
       align-self: center;
       width: 80%;
       height: fit-content;
       text-align:left;
     }
 
-    .anuncio > div > header > img{
+    .anuncio_00 > div > header > img{
       width: 30%;
       height: 3rem;
       align-self: center;
       object-fit: contain;
     } 
 
-    .anuncio > div > header > p{
+    .anuncio_00 > div > header > p{
       width: 100%;
       height: 30%;
       padding: 0.2rem;
     }
 
-    .anuncio > div > p {
+    .anuncio_00 > div > p {
       height: 40%;
       padding: 0.2rem;
       text-align:center;
     }
   /*FIN ANUNCIO*/
 
-  .video{
+  .video_00{
   width: 24rem;
   border-radius: 1rem;
   padding-top: 5.1rem;
   }
-  /*  */
 /* FIN ASIDE LEFT */
 
 /*INICIO SECTION*/
-  .slider_y_noticia{
+  .slider_y_noticia_00{
     display: block;
     width: 60%;
     height: 100%;
   }
 
   /*INICIO SLIDER*/
-    .slider{
+    .slider_00{
       display: flex;
       margin: 4rem auto 0 auto;
       width: 62.5rem;
@@ -312,7 +311,7 @@ body{
       overflow: hidden;
     }
 
-    .contenedor_slides{
+    .contenedor_slides_00{
       border-radius: inherit;
       display: grid;
       grid-template-columns: 62.5rem 62.5rem 62.5rem 62.5rem 62.5rem;
@@ -320,11 +319,11 @@ body{
       animation-direction: alternate;
     }
 
-    .contenedor_slides:hover{
+    .contenedor_slides_00:hover{
       animation-play-state: paused;
     }
 
-    .contenedor_slides > img{
+    .contenedor_slides_00 > img{
       border-radius: inherit;
       z-index: 0;
       height: 25rem;
@@ -336,7 +335,7 @@ body{
   /*FIN SLIDER*/
 
   /*INICIO ARTICULO*/
-    .noticia{
+    .noticia_00{
       margin: auto;
       margin-top: 4rem;
       margin-bottom: 4rem;
@@ -350,14 +349,14 @@ body{
     }
 
     /* HEADER DE LA NOTICIA CON INFO. AUTOR + IMAGEN ARTICULO*/
-      .noticia_header{
+      .noticia_header_00{
         display: flex;
         justify-content: flex-end;
         width: calc(100% - 3%);
         margin: 1rem;
       }
 
-      .autor{
+      .autor_00{
         display: block;
         width: 38%;
         margin-bottom: 3rem;
@@ -365,18 +364,18 @@ body{
         padding-left: 1%;
       }
 
-      .autor_header{
+      .autor_header_00{
         display: flex;
         width: 100%;
         flex-flow: column;
         align-items: center;
       }
 
-      .autor_header > p:first-of-type{
+      .autor_header_00 > p:first-of-type{
         font-family: 'Playfair Display', serif;
       }
 
-      .autor > * > a{
+      .autor_00 > * > a{
         color: black;
       }
 
@@ -384,11 +383,11 @@ body{
         opacity: 0.7;
       }
 
-      .autor_header > img{
+      .autor_header_00 > img{
         width: 25%;
       }
 
-      .autor > h2{
+      .autor_00 > h2{
         display: block;
         text-align: center;
         font-size: 1.3rem;
@@ -399,7 +398,7 @@ body{
         text-decoration-color: azure;
       }
 
-      .autor > h1{
+      .autor_00 > h1{
         text-align: center;
         display: block;
         font-size: 2em;
@@ -410,7 +409,7 @@ body{
         font-weight: bold; 
       }
 
-      .imagen_articulo{
+      .imagen_articulo_00{
         display: flex;
         flex-flow: column;
         width: 60%;
@@ -419,19 +418,19 @@ body{
         margin-bottom: auto;
       }
 
-      .imagen_articulo > p{
+      .imagen_articulo_00 > p{
         margin-top: 2%;
         opacity: 0.9;
       }
 
-      .imagen_articulo > img{
+      .imagen_articulo_00 > img{
         width: 100%;
         border-radius: 0.5%;
       }
     /*FIN HEADER DE LA NOTICIA*/
     
     /*INCIO CUERPO DEL ARTICULO*/
-      .articulo{
+      .articulo_00{
         display: flex;
         flex-flow: column;
         line-height: 2rem;
@@ -440,7 +439,7 @@ body{
       }
     
       /*INCIO HEADER DEL CUERPO DE LA NOTICIA*/
-        .header_articulo_fecha_rrss{
+        .header_articulo_fecha_rrss_00{
           display: flex;
           flex-flow: row nowrap;
           width: 100%;
@@ -449,59 +448,59 @@ body{
           height: 4rem;
         }
       
-        .header_articulo_fecha_rrss > .fecha{
+        .header_articulo_fecha_rrss_00 > .fecha_00{
           width: 25%;
           display: flex;
           flex-flow: column nowrap; 
           font-size: 1.3rem;
         }
       
-        .fecha p:last-child{
+        .fecha_00 > p:last-child{
           opacity: 0.8;
         }
       
-        .header_articulo_fecha_rrss > .logo_rrss{
+        .header_articulo_fecha_rrss_00 > .logo_rrss_00{
           width: 10%;
           display: flex;
           flex-flow: row;
           justify-content: center;
         }
       
-        .logo_rrss > div{
+        .logo_rrss_00 > div{
           display: flex;
           justify-content: center;
           margin: auto;
         }
       
-         .logo_rrss > div > a{
+         .logo_rrss_00 > div > a{
           display: block; 
           width: 80%;
           height: 80%;
         }
       
-        .logo_rrss > div > a > img{
+        .logo_rrss_00 > div > a > img{
           width: 100%;
           height: 100%;
           border-radius: 50%;
         }
       
-        .logo_rrss > div > a > img{
+        .logo_rrss_00 > div > a > img{
           object-fit: cover;
           object-position: center;
         }
       /*FIN HEADER DEL CUERPO DEL ARTICULO*/
       
-      .articulo > :nth-child(n+1){
+      .articulo_00 > :nth-child(n+1){
         margin-bottom: 2rem;
       }
     
-      .articulo > p > a{
+      .articulo_00 > p > a{
         text-decoration: none;
         color: #007ae6;
         font-weight: bold;
       }
     
-      .articulo > p > a:hover{
+      .articulo_00 > p > a:hover{
         color: #4ca1ed;
       }
     /*FIN CUERPO DEL ARTICULO*/
@@ -511,7 +510,7 @@ body{
 /*INICIO ASIDE RIGHT*/
 /*INICIO ASIDE RIGHT*/
 
-.paginas_mas_visitadas, .recomendacion{
+.paginas_mas_visitadas_00, .recomendacion_00{
   font-size: 1em;
   display: flex;
   flex-flow: column;
@@ -520,15 +519,15 @@ body{
   width: 95%;
 }
 
-.paginas_mas_visitadas > :first-child, .recomendacion > :first-child{
+.paginas_mas_visitadas_00 > :first-child, .recomendacion_00 > :first-child{
   margin-bottom: 2em;
 }
 
-.paginas_mas_visitadas > :nth-child(n+2){
+.paginas_mas_visitadas_00 > :nth-child(n+2){
   margin-bottom: 3em;
 }
 
-.mas_visitada{
+.mas_visitada_00{
   display: flex;
   flex-flow: column nowrap;
   width: fit-content;
@@ -536,11 +535,11 @@ body{
   border-radius: 0.2em 0.2em 1em 1em;
 }
 
-.mv_recomendacion{
+.mv_recomendacion_00{
   margin-bottom: 3.5em;
 }
 
-.mas_visitada_iframe{
+.mas_visitada_iframe_00{
   display: inline-block;
   border-radius: 0.2em 0.2em 1em 1em;
   overflow: hidden;
@@ -548,17 +547,17 @@ body{
   width: 100%;
 }
 
-.h2_from_aside_right, .h1_from_aside_right, .anchor_from_footer{
+.h2_from_aside_right_00, .h1_from_aside_right_00, .anchor_from_footer_00{
   font-family: "Playfair";
   text-align: center;
   align-self: center;
 }
 
-.h2_from_aside_right >a{
+.h2_from_aside_right_00 > a{
   text-decoration: none;
   color: inherit;
 }
-.cv_embebed, .escala_embebed, .tarjeta_presentacion_embebed{
+.cv_embebed_00, .escala_embebed_00, .tarjeta_presentacion_embebed_00{
   display: block;
   width: 18.3em;
   margin: auto;
@@ -566,11 +565,11 @@ body{
   border-radius: 0.2em 0.2em 1em 1em;
 }
 
-.mas_visitada:hover, .alto:hover, .anuncio:hover{
+.mas_visitada_00:hover, .alto_00:hover, .anuncio_00:hover{
   box-shadow: 0.4rem 0.4rem 1rem grey;
 }
 
-.anchor_link{
+.anchor_link_00{
   position: absolute;
   top: 0;
   left: 0;
@@ -578,15 +577,15 @@ body{
   height: 100%;
 }
 
-.escala_embebed{
+.escala_embebed_00{
   height: 15.7em;
 }
 
-.tarjeta_presentacion_embebed{
+.tarjeta_presentacion_embebed_00{
   height: 9.1em;
 }
 
-.el_tiempo{
+.el_tiempo_00{
   display: flex;
   gap: 1em;
   margin-top: 3em;
@@ -594,31 +593,31 @@ body{
   width: 100%;
 }
 
-.tiempo_widget{
+.tiempo_widget_00{
 display: flex;
 justify-content: center;
 width: 100%;
 }
 
-.alto{
+.alto_00{
   display: flex; 
   width: 100%;
 }
 
-.h1_from_aside_right{
+.h1_from_aside_right_00{
   font-size: 1.6em;
 }
 /*FIN ASIDE RIGHT*/
 
 /* INICIO FOOTER */
-.footer{
+.footer_00{
   display: flex;
   flex-flow: column;
   width: 100%;
   background-color:rgb(207, 201, 191);
 }
 
-.footer_header{
+.footer_header_00{
   display: flex;
   align-items: flex-end;
   width: 100%;
@@ -630,7 +629,7 @@ width: 100%;
   font-family:"Roboto", "Playfair";
 }
 
-.span_hl_footer_header{
+.span_hl_footer_header_00{
   flex-grow: 0.1;
   display:inline-block;
   border: solid black 1px;
@@ -639,14 +638,14 @@ width: 100%;
   margin-left: 0.5em;
 }
 
-.span_hl{
+.span_hl_00{
   display:inline-block;
   border: solid black 1.5px;
   margin-bottom: 1em;
   margin-top: 1em;
 }
 
-.footer_body{
+.footer_body_00{
   display: flex;
   flex-flow: row;
   justify-content:space-between;
@@ -655,7 +654,7 @@ width: 100%;
   gap: 2em;
 }
 
-.footer_redes_sociales{
+.footer_redes_sociales_00{
   justify-content: flex-end;
   display: inline-flex;
   height: 90%;
@@ -663,18 +662,18 @@ width: 100%;
   margin-right: 0.5em;
 }
 
-.imagen_footer_rrss{
+.imagen_footer_rrss_00{
   width: 3em;
   height: 60%;
   object-fit: contain;
 }
 
-.anchor_from_footer{
+.anchor_from_footer_00{
   color: black;
   text-decoration-line: none ;
 }
 
-.developer_info_footer, .copyright{
+.developer_info_footer_00, .copyright_00{
   display: flex;
   align-items: center;
 }
